@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zerodha</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div style=" display: flex;justify-content: space-between;
+     background-color: rgba(251, 252, 248, 0.466);border-radius: 10px;">
+        <span>
+            <img width="150" src="logo.svg" alt="Home" style="padding-top:30px;padding-left:15px;padding-bottom:15px;padding-right:15 px;margin-left:30px"></img>
+        </span>
+        <div style="background-color:rgba(252, 252, 252, 0.466);display: flex;gap: 50px;border-radius:15px;">
+            <div style="padding-top:30px;padding-left:15px;padding-bottom: 20PX;padding-right:15px;">Home</div>
+            <div style="padding-top:30px;padding-left:15px;padding-bottom: 20PX;padding-right:15px;">About Us</div>
+            <div style="padding-top:30px;padding-left:15px;padding-bottom: 20PX;padding-right:15px;">Privacy</div>
+        </div>
+    </div>
+
+    <div style="display: flex;justify-content: center;">
+        <img width="1200" src="landing.png" style="padding-top: 10px;margin-top: 10px;padding-bottom: 10px;"></img>
+    </div style="display: flex;justify-content: center;">
+    <br><br><br><br>
+    <div style="display: flex;justify-content: center;align-items: center;">
+        <div style="text-align: center;">
+        <h1 style="font-weight: 800;font-style: italic;">Invest in everything</h1>
+        <h3>Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.</h3>
+        <button style="margin:0px;padding: 10px;background-color: #387ed1;border: 2px solid rgb(17, 5, 5);border-radius: 15px;color: aliceblue;padding-top: 10px;padding-bottom: 10px;padding-left: 30px;padding-right: 30px;cursor: pointer;" >Sign Up for Free</button>
+        </div>
+    </div>
+    <hr>
+    <div style="display: flex;justify-content: space-between;">
+            <div style="align-items:normal">
+            <h1>
+                Trust with Confidence
+            </h1>
+            <h4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti incidunt eius eveniet rem voluptatum? Non amet, quasi id dolore odit harum atque explicabo at provident, omnis placeat numquam dolorem officia?
+            </h4>
+            </div>
+            <div style="display: flex;">
+                    <img src="ecosystem.png" style="width:500px;height: 500px ;"></img>
+            </div>
+            
+    </div>
+
+</body>
+</html>
