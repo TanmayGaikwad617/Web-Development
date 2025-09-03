@@ -1,0 +1,68 @@
+
+  
+  body {
+    background-color: #121212; /* Dark background */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #1e1e1e; /* Dark card */
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  #cart-items p {
+    font-size: 1rem;
+    color: #ccc;
+  }
+  
+  #cart-total {
+    margin-top: 1.5rem;
+  }
+  
+  #total-price {
+    font-weight: bold;
+    color: #4caf50;
+  }
+  
+  button {
+    background-color: #df17e9;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* .btndelete{
+    background-color: red;
+    
+  } */
