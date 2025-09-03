@@ -1,0 +1,25 @@
+#to-do-Container li button {
+    background-color: #2312bd;
+    color: white;
+    /* // margin-left: 30px; 
+    // list-style:none;  */
+}
+
+#to-do-Container li{
+    display: flex;
+    justify-content: space-between;
+    width: 250px; 
+    list-style: decimal;
+}
+
+#to-do-Container{
+    counter-reset: todo-counter;
+}
+
+    
+#to-do-Container li { 
+    counter-increment: todo-counter; 
+    display: flex; justify-content: space-between;
+     width: 150px; list-style: none; 
+    } 
+
