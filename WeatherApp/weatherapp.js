@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     const descriptionDisplay= document.getElementById('description');
     const errorMessage= document.getElementById('error-message');
 
-    const API_KEY="1de4c12f499c8a710029bc31e1a975ba";
+    const API_KEY="API-key";
 
     getweatherbtn.addEventListener('click',async()=>{
         const city= cityinput.value.trim();
@@ -53,5 +53,6 @@ document.addEventListener('DOMContentLoaded',()=>{
         weatherinfo.classList.remove("hidden");
         errorMessage.classList.add("add");
     }
+
 
 })
